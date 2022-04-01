@@ -5,138 +5,278 @@
 /* ============ Utility Classes ============ */
 
 :root{
-    --header-height: 3rem;
+--header-height: 3rem;
 
-    /*========== Colors ==========*/
-    --hue-color: 250;
+/*========== Colors ==========*/
+--hue-color: 1;
 
-    --first-color: hsl(var(--hue-color), 69%, 61%);
-    --first-color-second: hsl(var(--hue-color), 69%, 61%);
-    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-    --title-color: hsl(var(--hue-color), 8%, 15%);
-    --text-color: hsl(var(--hue-color), 8%, 45%);
-    --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 96%);
-    --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #fff;
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+--first-color: hsl(var(--hue-color), 69%, 61%);
+--first-color-second: hsl(var(--hue-color), 69%, 61%);
+--first-color-alt: hsl(var(--hue-color), 57%, 53%);
+--first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+--title-color: hsl(var(--hue-color), 8%, 15%);
+--text-color: hsl(var(--hue-color), 8%, 45%);
+--text-color-light: hsl(var(--hue-color), 8%, 65%);
+--input-color: hsl(var(--hue-color), 70%, 96%);
+--body-color: hsl(var(--hue-color), 60%, 99%);
+--container-color: #fff;
+--scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
-    /* ========== Fonts ==========*/
+/* ========== Fonts ==========*/
 
-    --font-normal: 300;
-    --font-medium: 500;
+--font-normal: 300;
+--font-medium: 500;
 
-    --fs-big: 2rem;
-    --fs-h1: 1.5rem;
-    --fs-h2: 1.25rem;
-    --fs-h3: 1.125rem;
-    --fs-normal: .935rem;
-    --fs-small: .800rem;
-    --fs-smaller: .700rem;
+--fs-big: 2rem;
+--fs-h1: 1.5rem;
+--fs-h2: 1.25rem;
+--fs-h3: 1.125rem;
+--fs-normal: .935rem;
+--fs-small: .800rem;
+--fs-smaller: .700rem;
 
 
-    --body-font: 'Raleway', sans-serif;
+--body-font: 'Raleway', sans-serif;
 
-    /*========== Margins ==========*/
-    /* Bottom */
+/*========== Margins ==========*/
+/* Bottom */
 
-    --mb-0-25: 0.25rem;
-    --mb-0-5: 0.5rem;
-    --mb-0-75: 0.75rem;
-    --mb-1: 1rem;
-    --mb-1-25: 1.25rem;
-    --mb-1-5: 1.5rem;
-    --mb-1-75: 1.75rem;
-    --mb-2-0: 2.0rem;
+--mb-0-25: 0.25rem;
+--mb-0-5: 0.5rem;
+--mb-0-75: 0.75rem;
+--mb-1: 1rem;
+--mb-1-25: 1.25rem;
+--mb-1-5: 1.5rem;
+--mb-1-75: 1.75rem;
+--mb-2-0: 2.0rem;
+--mb-3-0: 3.0rem;
 
-    /* Top */
+/* Top */
 
-    --mt-0-25: 0.25rem;
-    --mt-0-5: 0.5rem;
-    --mt-0-75: 0.75rem;
-    --mt-1: 1rem;
-    --mt-1-25: 1.25rem;
-    --mt-1-5: 1.5rem;
-    --mt-1-75: 1.75rem;
-    --mt-2-0: 2.0rem;
+--mt-0-25: 0.25rem;
+--mt-0-5: 0.5rem;
+--mt-0-75: 0.75rem;
+--mt-1: 1rem;
+--mt-1-25: 1.25rem;
+--mt-1-5: 1.5rem;
+--mt-1-75: 1.75rem;
+--mt-2-0: 2.0rem;
+--mt-3-0: 3.0rem;
 
-    /* Left */
+/* Left */
 
-    --ml-0-25: 0.25rem;
-    --ml-0-5: 0.5rem;
-    --ml-0-75: 0.75rem;
-    --ml-1: 1rem;
-    --ml-1-25: 1.25rem;
-    --ml-1-5: 1.5rem;
-    --ml-1-75: 1.75rem;
-    --ml-2-0: 2.0rem;
+--ml-0-25: 0.25rem;
+--ml-0-5: 0.5rem;
+--ml-0-75: 0.75rem;
+--ml-1: 1rem;
+--ml-1-25: 1.25rem;
+--ml-1-5: 1.5rem;
+--ml-1-75: 1.75rem;
+--ml-2-0: 2.0rem;
+--ml-3-0: 3.0rem;
 
-    /* Right */
+/* Right */
 
-    --mr-0-25: 0.25rem;
-    --mr-0-5: 0.5rem;
-    --mr-0-75: 0.75rem;
-    --mr-1: 1rem;
-    --mr-1-25: 1.25rem;
-    --mr-1-5: 1.5rem;
-    --mr-1-75: 1.75rem;
-    --mr-2-0: 2.0rem;
+--mr-0-25: 0.25rem;
+--mr-0-5: 0.5rem;
+--mr-0-75: 0.75rem;
+--mr-1: 1rem;
+--mr-1-25: 1.25rem;
+--mr-1-5: 1.5rem;
+--mr-1-75: 1.75rem;
+--mr-2-0: 2.0rem;
+--mr-3-0: 3.0rem;
 
-    /* Index */
+/* Index */
 
-    --z-fixed: 100;
-    --z-modal: 10000;
+--z-fixed: 100;
+--z-modal: 10000;
 
 }
 
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
-    :root {
-        --fs-big: 3rem;
-        --fs-h1: 2.25rem;
-        --fs-h2: 1.5rem;
-        --fs-h3: 1.25rem;
-        --fs-normal: 1rem;
-        --fs-small: .875rem;
-        --fs-smaller: .800rem;
-    }
+:root {
+    --fs-big: 3rem;
+    --fs-h1: 2.25rem;
+    --fs-h2: 1.5rem;
+    --fs-h3: 1.25rem;
+    --fs-normal: 1rem;
+    --fs-small: .875rem;
+    --fs-smaller: .800rem;
+}
 }
 
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0 0 var(--header-height) 0;
+font-family: var(--body-font);
+font-size: var(--fs-normal);
+background-color: var(--body-color);
+color: var(--text-color);
+}
+
+h1, h2, h3, h4 {
+color: var(--title-color);
+font-weight: var(--font-medium);
+}
+
+ul {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+/* Layout */
+
+.container {
+max-width: 768px;
+margin-left: var(--mb-1-5);
+margin-right: var(--mb-1-5);
+}
+
+.grid {
+display: grid;
+gap: 1.5rem;
+}
+
+.header {
+width: 100%;
+position: fixed;
+bottom: 0;
+left: 0;
+z-index: var(--z-fixed);
+background-color: var(--body-color);
+}
+
+/*==================== Reusable ====================*/
+
+.section {
+    padding: 2rem 0 4rem;
+  }
+
+.section__title {
+font-size: var(--h1-font-size);
+color: var(--title-color);
+}
+
+.section__subtitle {
+display: block;
+font-size: var(--fs-small);
+margin-bottom: var(--mb-3);
+}
+
+.section__title, 
+.section__subtitle {
+text-align: center;
+}
+
+
+
+
+/* Navigation */
+
+.nav{
+    max-width: 968px;
+    height: var(--header-height);
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
   }
   
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    margin: 0 0 var(--header-height) 0;
-    font-family: var(--body-font);
-    font-size: var(--fs-normal);
-    background-color: var(--body-color);
-    color: var(--text-color);
-  }
-  
-  h1, h2, h3, h4 {
+  .nav__logo,
+  .nav_toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
   }
   
-  ul {
-    list-style: none;
+  .nav__logo:hover{
+    color: var(--first-color)
   }
   
-  a {
-    text-decoration: none;
+  .nav__toggle{
+    font-size: 1.1rem;
+    cursor: pointer;
   }
   
-  img {
-    max-width: 100%;
-    height: auto;
+  .nav__toggle:hover{
+    color: var(--first-color);
+  }
+  
+  @media screen and (max-width: 767px) {
+    .nav__menu{
+      position: fixed;
+      bottom: -100%;
+      left: 0;
+      width: 100%;
+      background-color: var(--body-color);
+      padding: 1.5rem 1.25rem 1.25rem;
+      box-shadow: 0 -1px 4px rgba(0,0,0,.15);
+      border-radius: 1.5rem 1.5rem 0 0;
+      transition: .5s;
+    }
+    
+  }
+  
+  .nav__list{
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+  }
+  .nav__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+  }
+  
+  .nav__link:hover{
+    color: var(--first-color);
+  }
+  
+  .nav__icon{
+    font-size: 1.2rem;
+  }
+  
+  .nav__close{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 1.25rem;
+    bottom: 1.75rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--first-color);
+  }
+  
+  .nav__close:hover{
+    color: var(--first-color-alt);
+  }
+  .text__close{
+      font-family: 'Raleway';
+      font-size: var(--fs-small);
+  }
+  
+  /* show menu */
+  .show-menu{
+    bottom: 0;
   }
