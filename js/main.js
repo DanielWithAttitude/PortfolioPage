@@ -18,7 +18,6 @@ if(navClose){
         navMenu.classList.remove('show-menu')
     })
 }
-
 /*==================== REMOVE MENU MOBILE ====================*/
 
 const navLink = document.querySelectorAll('.nav__link')
